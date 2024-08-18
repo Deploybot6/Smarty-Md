@@ -57,26 +57,21 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: '' + b64data });
 
                let SIGMA_MD_TEXT = `
-*FAMOUS MD CONNECTED SUCCESFULLY*
+*Smarty-MD ᴄᴏɴɴᴇᴄᴛᴇᴅ sᴜᴄᴄᴇsꜰᴜʟʟʏ*
 ____________________________________
 ╔════◇
-║『 𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍𝙎』
-
-║ ❒ *FAMOUS-TECH* : https://wa.me/14099953525
-
-║ ❒ FAMOUS-TECH* : https://wa.me/50943782508 
-
+║『𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍𝙎』🆂🅼🅰︎🆁🆃🆈-🅼🅳
+║ ❒ *𝐃𝐄𝐏𝐋𝐎𝐘 𝐁𝐎𝐓* : https://wa.me/50940804440
+║ ❒ *𝐃𝐄𝐏𝐋𝐎𝐘 𝐁𝐎𝐓* : https://wa.me/50941695706
 ╚════════════════════❒
 ╔═════◇
-║ 『••• OWNER INFO •••』
-
+║ 『••• OWNER INFO ••• ✍︎︎
+║𝕿𝖍𝖎𝖘 𝖇𝖔𝖙 𝖇𝖊𝖊𝖓 𝖈𝖗𝖊𝖆𝖙𝖊𝖉 𝖙𝖔 𝕯𝖊𝖕𝖑𝖔𝖞 𝖛𝖔𝖙 
 ║ ❒ 𝐖𝐚𝐆𝐫𝐨𝐮𝐩: https://chat.whatsapp.com/EcgJ3ziQIUMD7GQB2sWZar
-
-║ ❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: https://whatsapp.com/channel/0029Vakc6q67YScvIVhOn10F
-
+║ ❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥:https://whatsapp.com/channel/0029VagBjxW90x2pdgh
+7Ygin
 ╚════════════════════╝ 
- *MADE WITH 🤍*
- *MADE IN HAÏTI* 🇭🇹
+ 𝕮𝖗𝖊𝖆𝖙𝖊𝖉 𝖇𝖞 𝕯𝖊𝖕𝖑𝖔𝖞 𝖇𝖔𝖞 🇭🇹𖤍
 ___________________________________
 
 Follow me on github : https://github.com/Famous-Tech`
@@ -99,6 +94,6 @@ Follow me on github : https://github.com/Famous-Tech`
          }
         }
     }
-    return await SIGMA_MD_PAIR_CODE()
+    return await SMARTY_MD_PAIR_CODE()
 });
 module.exports = router
