@@ -56,7 +56,7 @@ router.get('/', async (req, res) => {
                let b64data = Buffer.from(data).toString('base64');
                let session = await Pair_Code_By_Maher_Zubair.sendMessage(Pair_Code_By_Maher_Zubair.user.id, { text: '' + b64data });
 
-               let SIGMA_MD_TEXT = `
+               let SMARTY_MD_TEXT = `
 *Smarty-MD ᴄᴏɴɴᴇᴄᴛᴇᴅ sᴜᴄᴄᴇsꜰᴜʟʟʏ*
 ____________________________________
 ╔════◇
